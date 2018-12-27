@@ -1,0 +1,16 @@
+{
+  "name": "hackernews-howtographql-bello",
+  "version": "1.0.0",
+  "description": "The Fullstack Tutorial for GraphQL - Maira Bello",
+  "main": "index.js",
+  "repository": "https://github.com/bogdanbiv/Hackernews-HowToGraphQL.git",
+  "author": "Bogdan BIV",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
