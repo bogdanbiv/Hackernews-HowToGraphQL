@@ -6,6 +6,6 @@ docker run --name mongoContainer --restart=always -d -p 8080:8080 mongo mongod -
 sudo docker exec -i -t mongoContainer bash
 mongo
 use admin
-db.createUser({user:"bog", pwd:"mamaliga9", roles:[{role:"root", db:"admin"}]})
+db.createUser({user:"bog", pwd:"", roles:[{role:"root", db:"admin"}]})
 exit && exit
 
